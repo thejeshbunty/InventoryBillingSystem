@@ -1,19 +1,18 @@
-# Compiled class files
+# Ignore compiled class files
+/bin/
 *.class
 
-# Build output
-bin/
-out/
-build/
-
-# IDE files
-.idea/
-.vscode/
-*.iml
-
-# Logs
+# Ignore logs
 *.log
 
-# OS files
+# Ignore IDE settings (VS Code, IntelliJ, Eclipse, NetBeans)
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Ignore OS files
 .DS_Store
 Thumbs.db
