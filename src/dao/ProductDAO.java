@@ -1,13 +1,12 @@
 // dao/ProductDAO.java
 package dao;
 
-import util.DBConnection;
-import model.Product;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import model.Product;
+import util.DBConnection;
 
 public class ProductDAO {
 

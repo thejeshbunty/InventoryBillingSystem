@@ -3,12 +3,11 @@ package service;
 
 import dao.BillDAO;
 import dao.UserDAO;
-import model.Bill;
-import model.User;
-
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
+import model.Bill;
+import model.User;
 
 public class ReportService {
     private BillDAO billDAO = new BillDAO();

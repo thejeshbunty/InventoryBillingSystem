@@ -24,10 +24,6 @@ public class BillItemService {
         billItemDAO.deleteByBillId(billId);
     }
 
-    // Inside BillingService.java
-
-// ... (other imports and code) ...
-
     public List<BillItem> getBillItemsByBillId(int billId) {
     // This will call a new method in your DAO layer
         return billItemDAO.findByBillId(billId);
